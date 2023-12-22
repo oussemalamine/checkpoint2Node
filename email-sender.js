@@ -5,14 +5,14 @@ const transporter = nodemailer.createTransport({
   port: 465, // Use the correct port for secure SMTP (confirm this with OVH)
   secure: true, // Use true for SSL
   auth: {
-    user: 'hello@pixelpress.tn', // Replace with your OVH email address
-    pass: '4vwN2s1Nj0Vq' // Replace with your OVH email password or app password
+    user: '', // Replace with your OVH email address
+    pass: '' // Replace with your OVH email password or app password
   }
 });
 
 const mailOptions = {
-  from: 'hello@pixelpress.tn',
-  to: 'marketing@redstart.tn', // Replace with the recipient's email address
+  from: '',
+  to: '', // Replace with the recipient's email address
   subject: 'Test Email',
   text: 'Hello, this is a test email!'
 };
